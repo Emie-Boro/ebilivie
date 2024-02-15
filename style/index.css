@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --light-color: #fc9595;
+    --dark-color: #ed0707;
+    --secondary: #e9f2f0;
+}
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--secondary);
+}
+header {
+    height: 100vh;
+}
+nav {
+    padding: 20px;
+}
+.bg-dark {
+    background-color: var(--light-color);
+}
+
+.pos-relative {
+    position: relative;
+}
+.pos-absolute {
+    position: absolute;
+}
+.container {
+    margin: 0 auto; 
+}
+.container-fluid {
+    text-align: center;
+}
+.container-bg-even {
+    line-height: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: black;
+    color: #fff;
+}
+.shadow{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.d-flex {
+    display: flex;
+}
+.d-block {
+    display: block;
+}
+/* .img-sm {
+    padding: 0;
+    margin: 0;
+} */
+
+.border-radius-lg {
+    border-radius: 50%;
+}
+.btn {
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn-primary {
+    background-color: var(--light-color);
+    color: #fff;
+}
+
+/* Custom CSS with id */
+.custom-hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.custom-0002 {
+    justify-content: center;
+
+}
+.custom-0002 li {
+    padding: 5px 40px;
+    list-style-type: none;
+}
+.custom-0002 a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.custom-hero-left {
+    padding-left: 60px;
+    padding-right: 0;
+    margin: 0;
+    width: 30%;
+}
+.custom-hero-left img {
+    width: 100%;
+    border-radius: 15px;
+}
+.custom-hero-right {
+    padding-right: 60px;
+    padding-left: 0;
+    width: 40%;
+    padding-right: 20px;
+}
+.custom-hero-right p{
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.custom-hero-right h1 {
+    color: var(--dark-color);
+    font-size: 35px;
+}
