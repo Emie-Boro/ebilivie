@@ -9,9 +9,14 @@
     <link rel="shortcut icon" href="img/fruit.png" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <div class="header">
         <nav>
-            <ul class="d-flex container custom-0002">
+            <div class="menu-icons" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="d-flex container custom-0002 menu" id="menu">
                 <li><a href="">Home</a></li>
                 <li><a href="">Products</a></li>
                 <li><a href="">About</a></li>
@@ -27,11 +32,15 @@
             <div class="custom-hero-left custom-hero-pd">
                 <img src="img/bottle_oil_png.png" class="" alt="">
             </div>
+            <div class="custom-hero-sm">
+                <img src="img/full-frame-shot-tomatoes_1048944-10078029.jpg" alt="">
+            </div>
         </div>
-    </header>
+    </div class="header">
     <div class="container container-fluid container-bg-even d-block company-info">
         <h3>About us</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est nobis voluptates cupiditate accusantium sit. Modi voluptatem asperiores accusantium possimus in, iste dolor fugiat sequi iure doloremque voluptatum maiores, magni molestiae.</p>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
